@@ -1,0 +1,39 @@
+.main-header-nav_button a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-header-nav__buttons {
+    margin: 3px 0;
+}
+
+.main-header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+}
+
+
+.main-header{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.main-header-fixed {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: black;
+    color:white;  
+}
+
+.main-header-nav__logo h3{
+    color: white;
+}
+
+.main-header-nav__logo a{
+    text-decoration:none
+}
