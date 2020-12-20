@@ -37,13 +37,13 @@ const IntroBox = () => (
                     </div>
                 </div>
                 <div className='intro-box-container__text_sites'>
-                    <a href="https://www.linkedin.com/in/rajat-sharma-06ba9a141/" className='intro-box-container__text_sites__site'>
+                    <a href="https://www.linkedin.com/in/rajat-sharma-06ba9a141/" target="_blank" rel="noopener noreferrer" className='intro-box-container__text_sites__site'>
                         <LinkedIn className='intro-box-container__text_sites__site_icon' />
                     </a>
-                    <a href="https://github.com/RAJATsd" className='intro-box-container__text_sites__site'>
+                    <a href="https://github.com/RAJATsd" target="_blank" rel="noopener noreferrer" className='intro-box-container__text_sites__site'>
                         <GitHub className='intro-box-container__text_sites__site_icon' />
                     </a>
-                    <a href="https://www.facebook.com/profile.php?id=100003168924278" className='intro-box-container__text_sites__site'>
+                    <a href="https://www.facebook.com/profile.php?id=100003168924278" target="_blank" rel="noopener noreferrer" className='intro-box-container__text_sites__site'>
                         <Facebook className='intro-box-container__text_sites__site_icon' />
                     </a>
                 </div>

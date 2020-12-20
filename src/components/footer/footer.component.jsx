@@ -14,7 +14,7 @@ const Footer = () => (
                 <div>
                     I am a passionate developer interested to learn new <br />
                     things everyday. Passing out in 2021 I am looking <br />
-                    better appurtunity which will help me get a pefect <br />
+                    better oppurtunity which will help me get a perfect <br />
                     start in the corporate world.
                     <br /><br />
                     This is my first react project with a bit of material ui
@@ -23,13 +23,13 @@ const Footer = () => (
             <div className='footer-main_items__connect'>
                 <h3>Connect with me</h3>
                 <div className='footer-main_items__connect_sites'>
-                    <a href="https://www.linkedin.com/in/rajat-sharma-06ba9a141/" className='footer-main_items__connect_site'>
+                    <a href="https://www.linkedin.com/in/rajat-sharma-06ba9a141/" target="_blank" rel="noopener noreferrer" className='footer-main_items__connect_site'>
                         <LinkedIn className='footer-main_items__connect_site_icon' />
                     </a>
-                    <a href="https://github.com/RAJATsd" className='footer-main_items__connect_site'>
+                    <a href="https://github.com/RAJATsd" target="_blank" rel="noopener noreferrer" className='footer-main_items__connect_site'>
                         <GitHub className='footer-main_items__connect_site_icon' />
                     </a>
-                    <a href="https://www.facebook.com/profile.php?id=100003168924278" className='footer-main_items__connect_site'>
+                    <a href="https://www.facebook.com/profile.php?id=100003168924278" target="_blank" rel="noopener noreferrer" className='footer-main_items__connect_site'>
                         <Facebook className='footer-main_items__connect_site_icon' />
                     </a>
                 </div>
