@@ -52,6 +52,9 @@ const Header = () => {
                     <Button className={`main-header-nav_button ${headerClassRef.current === 'main-header'?classes.headerButton:classes.headerButtonFixed}`} >
                         <a href="/">Home</a>
                     </Button>
+                    <Button className={`main-header-nav_button ${headerClassRef.current === 'main-header'?classes.headerButton:classes.headerButtonFixed}`} >
+                        <a href="/projects">Projects</a>
+                    </Button>
                 </div>
             </nav>
         </div>

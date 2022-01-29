@@ -1,0 +1,10 @@
+.projects-list{
+    width: 50%;
+    border-radius: 8px;
+    margin-bottom: 120px;
+    display: flex;
+    margin: auto;
+    margin-top: 170px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
