@@ -1,0 +1,9 @@
+.experience-list-container {
+    margin: 200px 0;
+}
+
+.experience-list {
+    width: 50%;
+    min-width: 850px;
+    margin: auto;
+}

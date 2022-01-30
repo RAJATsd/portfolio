@@ -1,5 +1,6 @@
 .projects-list{
     width: 50%;
+    min-width: 850px;
     border-radius: 8px;
     margin-bottom: 120px;
     display: flex;

@@ -1,0 +1,21 @@
+.projects-overview-container{
+    background-color: rebeccapurple;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.projects-overview-container__heading{
+    background-color: white;
+    width: 50%;
+    min-width: 850px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 8px;
+    top: 150px;
+    color:black;
+}

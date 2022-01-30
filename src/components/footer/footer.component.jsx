@@ -13,11 +13,9 @@ const Footer = () => (
                 <h3>About Me</h3>
                 <div>
                     I am a passionate developer interested to learn new <br />
-                    things everyday. Passing out in 2021 I am looking <br />
+                    things everyday. Passed out in 2021 I am looking <br />
                     better oppurtunity which will help me get a perfect <br />
                     start in the corporate world.
-                    <br /><br />
-                    This is my first react project with a bit of material ui
                 </div>
             </div>
             <div className='footer-main_items__connect'>
