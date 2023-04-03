@@ -1,0 +1,44 @@
+.main-header-nav__buttons {
+    margin: 3px 0;
+}
+
+.main-header-nav__buttons .header-nav-anchors {
+    text-decoration: none;
+    color: inherit;
+}
+
+.main-header-nav_button {
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.main-header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 832px;
+    margin:auto;
+}
+
+
+.main-header{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.main-header-fixed {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: black;
+    color:white;  
+}
+
+.main-header-nav__logo h3{
+    color: white;
+}
+
+.main-header-nav__logo a{
+    text-decoration:none
+}

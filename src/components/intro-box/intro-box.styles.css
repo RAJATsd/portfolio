@@ -1,0 +1,26 @@
+.profile_image {
+    border-radius: 16px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.intro-box {
+    background-image: -webkit-linear-gradient(0deg,#766dff 0%,#88f3ff 100%);
+    margin-bottom: 200px;
+}
+
+.intro-box-container__text_sites {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.intro-box-container__text_sites__site{
+    width: 40px;
+}
+
+.intro-box-container__text_sites__site_icon {
+    width: 100%;
+    display: block;
+    height: 100%;
+}

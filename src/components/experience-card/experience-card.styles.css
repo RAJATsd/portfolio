@@ -1,0 +1,64 @@
+.experience-card-container .hover-hand {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 1rem;
+    right: 1rem;
+    padding: 0.3rem;
+    border-radius: 1rem;
+    border: 0.2rem solid black;
+    background: white;
+}
+
+.experience-company-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 1rem;
+    transform:rotate(15deg);
+}
+
+.roles-responsibilies-container {
+    transition: transform 0.5s;
+    transform: translateX(100%);
+}
+
+.roles-and-resp-heading a {
+    margin-left: 2rem;
+    text-decoration: none;
+    font-size: 1rem;
+
+    animation: colorChange 2s infinite alternate;
+}
+
+.roles-and-resp-heading::after {
+    position: absolute;
+    width: 100%;
+    content: '';
+    border:1px solid rgb(59, 59, 59);
+    bottom: -0.3rem;
+    left: 0;
+    transform: scale(0);
+    transform-origin: left;
+}
+
+.experience-card-container:hover .roles-and-resp-heading::after {
+    transform: scale(1);
+    transition: transform 0.3s;
+    transition-delay: 0.5s;
+}
+
+.experience-card-container:hover .roles-responsibilies-container {
+    transform: translateX(0);
+}
+
+@keyframes colorChange {
+    0% {
+        color: blue;
+    }
+    50% {
+        color: rgb(25, 39, 34);
+    }
+    100% {
+        color: palevioletred;
+    }
+}

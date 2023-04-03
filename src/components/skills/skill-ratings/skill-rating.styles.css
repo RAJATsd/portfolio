@@ -1,0 +1,15 @@
+.skills-ratings_skill{
+    display: flex;
+    margin : 2rem;
+    align-items: center;
+}
+
+.skills-ratings_skill .skill-image {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 2rem ;
+}
+
+.skills-ratings_skill__skillName{
+    padding-bottom: 3px;
+}

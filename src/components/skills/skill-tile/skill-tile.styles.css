@@ -1,0 +1,18 @@
+.skills-about-myself_tile__item {
+    margin:0 8px 0 0;
+    margin-bottom: 0;
+}
+
+.skills-about-myself_tile {
+    border: 1px solid rgb(180, 180, 180);
+    padding: 8px;
+    border-radius: 5px;
+    margin:8px;
+    width: 125px;
+}
+
+
+.item-name {
+    color: rgb(58, 58, 58);
+    font-weight: normal;
+}

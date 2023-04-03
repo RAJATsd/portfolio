@@ -1,0 +1,65 @@
+.project-list-element {
+  transform-style: preserve-3d;
+  transition: 1s;
+}
+
+.front-body {
+  background-size: cover;
+  transform: translateZ(20px);
+}
+
+.front-body .hover-hand {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 1.4rem;
+  right: 1rem;
+  padding: 0.3rem;
+  border-radius: 1rem;
+  border: 0.2rem solid black;
+  background: white;
+}
+
+.back-body {
+  transform: translate3d(-50%, -50%, -20px) rotateY(180deg);
+  transition: background-color 1.5s;
+}
+
+.back-body .project-image {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+
+  box-shadow: 4px 12px 7px 1px rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: 4px 12px 7px 1px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 4px 12px 7px 1px rgba(0, 0, 0, 0.16);
+}
+
+.back-body .project-link {
+  margin-top: 0.3rem;
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: rgb(71, 71, 71);
+}
+
+.back-body > * {
+  transform: scale(0);
+  transition: transform 1s;
+}
+
+.implementations-holder li {
+  margin: 0.5rem;
+}
+
+.project-list-element:hover {
+  transform: rotateY(180deg);
+}
+
+.project-list-element:hover .back-body {
+  background: azure;
+}
+
+.project-list-element:hover .back-body > * {
+  transform: scale(1);
+}
